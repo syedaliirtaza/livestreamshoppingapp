@@ -17,14 +17,14 @@ const Hero = () => {
             easier or more enjoyable!
           </p>
           <div className="flex items-center gap-5">
-            <button className="btn btn-active rounded-none flex items-center gap-3 hover:bg-primary border-none">
+            <button className="btn btn-active rounded-none flex items-center hover:bg-primary border-none">
               <Link to="seller" smooth="true">
                 Become a Seller
               </Link>
             </button>
-            <div className="flex gap-3 cursor-pointer items-center">
-              <MdSlowMotionVideo className="text-3xl" />
-              <p className="text-xl font-medium">Watch</p>
+            <div className="flex ml-[10px] cursor-pointer items-center">
+              <MdSlowMotionVideo className="text-3xl mr-[10px]" />
+              <p className="text-xl font-medium">Launching Soon</p>
             </div>
           </div>
         </div>
