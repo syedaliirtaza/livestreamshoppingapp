@@ -1,6 +1,5 @@
 import React from "react";
 import { AiFillApple } from "react-icons/ai";
-import Image from "next/Image";
 const GetStarted = () => {
   return (
     <div id="seller" className="container mx-auto">

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 const Testimonials = () => {
   return (
     <div className="container mx-auto">

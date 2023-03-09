@@ -1,7 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { MdSlowMotionVideo } from "react-icons/md";
-import Image from "next/image";
 const ChooseUs = () => {
   return (
     <div className="container mx-auto">
