@@ -41,7 +41,7 @@ const GetStarted = () => {
               <br />
               <button
                 type="submit"
-                className="pageclip-form__submit bg-white mt-[20px] text-black btn border-none flex gap-2 capitalize hover:bg-primary"
+                className="pageclip-form__submit bg-white mt-[20px] ml-[25%] lg:ml-[35%] text-black btn border-none flex gap-2 capitalize hover:bg-primary"
               >
                 Become a Seller
               </button>

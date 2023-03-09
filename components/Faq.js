@@ -4,9 +4,6 @@ import { MdSlowMotionVideo } from "react-icons/md";
 const Faq = () => {
   return (
     <div className="container mx-auto lg:px-32">
-      <p className="text-primary font-medium text-lg items-start lg:mt-[100px]">
-        Faq
-      </p>
       <p className="text-4xl font-bold items-start py-4">
         Frequently Asked Questions
       </p>
@@ -19,7 +16,7 @@ const Faq = () => {
             <p className="text-white text-lg">
               Making a purchase on a live stream shopping app is
               <br />
-              Simply browse your products from the feed,
+              Simple. Browse your products from the feed,
               <br /> watch the live stream and place the order
             </p>
           </div>
@@ -29,9 +26,9 @@ const Faq = () => {
             How does live stream shopping work?
           </p>
           <p className=" text-lg">
-            Live stream shopping is a feature that allows sellers <br /> to
-            stream live video of their products while interacting
-            <br /> with buyers in real-time.
+            Live stream shopping is a feature that allows sellers <br /> to sell
+            their products while interacting with buyers
+            <br /> in real-time via live stream
           </p>
         </div>
       </div>
