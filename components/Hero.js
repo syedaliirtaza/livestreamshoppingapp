@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col lg:flex-row justify-evenly items-center">
-        <div className="flex flex-col gap-5 mt-[100px] mb-[100px] lg:w-[50%] lg:mt-[100px]">
+        <div className="flex flex-col gap-5 mt-[50px] mb-[50px] lg:w-[50%] lg:mt-[100px] lg:mb-[100px]">
           <p className="text-6xl font-bold">
             Shop <span className="text-red-500">Live</span> <br />
             Feel ALive

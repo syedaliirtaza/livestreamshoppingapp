@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <div className=" ">
-      <div className="container mx-auto py-2 flex flex-col lg:flex-row lg:justify-between items-center">
+      <div className="container mx-auto py-2 flex flex-row justify-between items-center">
         <div className="flex items-center gap-10">
           <p className="text-3xl font-bold">baskett</p>
         </div>

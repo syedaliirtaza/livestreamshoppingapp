@@ -4,7 +4,7 @@ import { MdSlowMotionVideo } from "react-icons/md";
 const ChooseUs = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex flex-col lg:flex-row justify-between items-center lg:mt-[100px]">
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:mt-[100px] gap-[100px] mb-[100px]">
         <div className="flex flex-col gap-5 items-start lg:w-[50%]">
           <p className="text-primary font-medium text-lg items-start">
             Features

@@ -24,7 +24,7 @@ const Footer = () => {
             >
               <input
                 type="text"
-                className="px-3 py-3 bg-white"
+                className="px-3 py-3 bg-white border-gray-400"
                 placeholder="Your email"
                 name="email"
                 required
