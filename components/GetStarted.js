@@ -5,9 +5,9 @@ const GetStarted = () => {
     <div id="seller" className="container mx-auto">
       <div className="flex flex-col lg:flex-row justify-center items-center bg-black  py-5 lg:py-10 lg:mt-[100px]">
         <div className="flex flex-col gap-4 pl-4 lg:pl-20 text-center">
-          <p className="text-3xl font-bold text-white">Get Early Access</p>
+          <p className="text-3xl font-bold text-white">Join The Waitlist Now</p>
           <p className="text-white">
-            Our early seller access program has just opened Apply Now
+            Join our waitlist to get early access of the application
           </p>
           <div className="flex flex-col gap-2">
             <form
@@ -43,7 +43,7 @@ const GetStarted = () => {
                 type="submit"
                 className="pageclip-form__submit bg-white mt-[20px] ml-[25%] lg:ml-[35%] text-black btn border-none flex gap-2 capitalize hover:bg-primary"
               >
-                Become a Seller
+                Join Waitlist
               </button>
             </form>
           </div>

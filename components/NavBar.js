@@ -7,9 +7,9 @@ const NavBar = () => {
         <div className="flex items-center gap-10">
           <p className="text-3xl font-bold">baskett</p>
         </div>
-        <button className="btn btn-active rounded-none hover:bg-primary border-none">
+        <button className="btn btn-active rounded-none hover:bg-primary border-none capitalize">
           <Link to="early" smooth="true">
-            Early Access
+            Our Waitlist
           </Link>
         </button>
       </div>
