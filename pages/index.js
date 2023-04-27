@@ -39,7 +39,6 @@ export default function Home() {
       <Features />
       <ChooseUs />
       <Faq />
-      <GetStarted />
       <Footer />
     </div>
   );

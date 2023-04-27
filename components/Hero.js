@@ -18,9 +18,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-5">
             <button className="btn btn-active rounded-none flex items-center hover:bg-primary border-none">
-              <Link to="seller" smooth="true">
-                Join the waitlist
-              </Link>
+              <a href="/signup">Join the waitlist</a>
             </button>
             <div className="flex ml-[10px] cursor-pointer items-center">
               <MdSlowMotionVideo className="text-3xl mr-[10px]" />

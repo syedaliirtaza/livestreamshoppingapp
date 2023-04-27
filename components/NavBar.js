@@ -8,9 +8,7 @@ const NavBar = () => {
           <p className="text-3xl font-bold">baskett</p>
         </div>
         <button className="btn btn-active rounded-none hover:bg-primary border-none capitalize">
-          <Link to="early" smooth="true">
-            Our Waitlist
-          </Link>
+          <a href="/signup">Our Waitlist</a>
         </button>
       </div>
     </div>
