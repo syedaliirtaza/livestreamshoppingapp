@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 const NavBar = () => {
   return (
     <div className=" ">
@@ -8,7 +7,7 @@ const NavBar = () => {
           <p className="text-3xl font-bold">baskett</p>
         </div>
         <button className="btn btn-active rounded-none hover:bg-primary border-none capitalize">
-          <a href="/signup">Our Waitlist</a>
+          <a href="signup">Our Waitlist</a>
         </button>
       </div>
     </div>
@@ -16,14 +15,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-// <img src="assets/logo.svg" alt="" />
-// <Link href="/" className="text-gray-800 font-medium text-lg">
-// About
-// </Link>
-// <Link href="/" className="text-gray-800 font-medium text-lg">
-// Pricing
-// </Link>
-// <Link href="/" className="text-gray-800 font-medium text-lg">
-// Features
-// </Link>

@@ -1,6 +1,4 @@
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
-import { MdSlowMotionVideo } from "react-icons/md";
 
 const Features = () => {
   return (
