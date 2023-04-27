@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <img src="/assets/hhhhero.svg" alt="" />
+          <img src="/assets/hhhhero.svg" alt="#" />
         </div>
       </div>
     </div>
