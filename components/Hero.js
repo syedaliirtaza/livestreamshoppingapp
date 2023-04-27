@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="mt-[20px] mb-[20px]">
             baskett enables users to buy their favourite products by watching
             and interacting with live stream. Shopping online has never been
-            easier or more enjoyable!
+            easier or more enjoyable
           </p>
           <div className="flex items-center gap-5">
             <button className="btn btn-active rounded-none flex items-center hover:bg-primary border-none">
