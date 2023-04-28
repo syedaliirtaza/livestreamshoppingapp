@@ -18,10 +18,10 @@ function signup() {
         >
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
-              Baskett Waitlist
+              Baskett Signup
             </h2>
             <p className="text-gray-600">
-              Be the first to know when we launch our new product
+              Be the first to sign up to baskett and get exclusive access
             </p>
           </div>
           <div className="mb-4">
