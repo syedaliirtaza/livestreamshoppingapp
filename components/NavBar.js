@@ -7,7 +7,7 @@ const NavBar = () => {
           <p className="text-3xl font-bold">baskett</p>
         </div>
         <button className="btn btn-active rounded-none hover:bg-primary border-none capitalize">
-          <a href="signup">Sign up</a>
+          <a href="/signup">Sign up</a>
         </button>
       </div>
     </div>
