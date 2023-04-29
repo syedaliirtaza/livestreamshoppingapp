@@ -33,7 +33,6 @@ export default function Home() {
           src="https://scripts.simpleanalyticscdn.com/latest.js"
         ></script>
         <link rel="icon" href="/favicon.ico" />
-        <!-- Meta Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -49,7 +48,6 @@ export default function Home() {
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1201442643832987&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
       </Head>
       <NavBar />
       <Hero />
