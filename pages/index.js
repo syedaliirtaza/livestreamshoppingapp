@@ -15,8 +15,8 @@ export default function Home() {
       <Head>
         <title>baskett</title>
         <meta
-          name="baskett enables users to buy their favourite products by watching and interacting with live stream. Shopping online has never been easier or more enjoyable!"
-          content="baskett enables users to buy their favourite products by watching and interacting with live stream. Shopping online has never been easier or more enjoyable!"
+          name="baskett enables users to buy & sell their favorite products by watching and interacting with live stream. Shopping online has never been easier or more enjoyable!"
+          content="baskett enables users to buy & sell their favorite products by watching and interacting with live stream. Shopping online has never been easier or more enjoyable!"
         />
         <link
           href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,300&display=swap"
