@@ -1,5 +1,6 @@
 import React from "react";
 import { MdSlowMotionVideo } from "react-icons/md";
+import Link from "next/link";
 const Hero = () => {
   return (
     <div className="container mx-auto">
@@ -16,7 +17,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center gap-5">
             <button className="btn btn-active rounded-none flex items-center hover:bg-primary border-none">
-              <a href="/signup">Signup Now</a>
+              <Link href="/signup">Signup Now</Link>
             </button>
             <div className="flex ml-[10px] cursor-pointer items-center">
               <MdSlowMotionVideo className="text-3xl mr-[10px]" />

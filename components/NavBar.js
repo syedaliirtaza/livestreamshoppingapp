@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 const NavBar = () => {
   return (
     <div className=" ">
@@ -7,7 +8,7 @@ const NavBar = () => {
           <p className="text-3xl font-bold">baskett</p>
         </div>
         <button className="btn btn-active rounded-none hover:bg-primary border-none capitalize">
-          <a href="/signup">Sign up</a>
+          <Link href="/signup">Sign up</Link>
         </button>
       </div>
     </div>
