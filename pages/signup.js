@@ -1,6 +1,12 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 function signup() {
+  const router = useRouter();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    router.push("/");
+  };
   return (
     <div className="min-h-screen flex items-center justify-center">
       <style>
@@ -15,6 +21,7 @@ function signup() {
           action="https://send.pageclip.co/QL4zR6QGILiCb55sRChBydgPTNBNSXq1/signup"
           class="pageclip-form"
           method="post"
+          onSubmit={handleSubmit}
         >
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">
@@ -26,17 +33,17 @@ function signup() {
           </div>
           <div className="mb-4">
             <label
-              htmlFor="email"
+              htmlFor="number"
               className="block text-gray-700 font-bold mb-2"
             >
-              Email Address
+              Number
             </label>
             <input
-              type="email"
-              name="email"
-              id="email"
+              type="number"
+              name="number"
+              id="number"
               className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              placeholder="ali@gmail.com"
+              placeholder="Enter your number"
               required
             />
           </div>
