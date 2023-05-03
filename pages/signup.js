@@ -2,11 +2,6 @@ import React from "react";
 import Link from "next/link";
 
 function signup() {
-  const router = useRouter();
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    router.push("/");
-  };
   return (
     <div className="min-h-screen flex items-center justify-center">
       <style>
